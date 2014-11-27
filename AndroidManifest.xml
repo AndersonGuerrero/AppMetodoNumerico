@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Gsoftware.MetodoNumerico"
+    android:versionCode="1"
+    android:versionName="1.0" android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.Gsoftware.MetodoNumerico.MainActivity"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.Gsoftware.MetodoNumerico.Biseccion"
+            android:label="@string/biseccion" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+        
+           <activity
+            android:name="com.Gsoftware.MetodoNumerico.NewtonRaphson"
+            android:label="@string/NewtonRaphson" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+        
+              <activity
+            android:name="com.Gsoftware.MetodoNumerico.Secante"
+            android:label="@string/Secante" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+           
+              
+              <activity
+            android:name="com.Gsoftware.MetodoNumerico.FalsaPosicion"
+            android:label="@string/falsaposicion" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+              
+        
+                 <activity
+            android:name="com.Gsoftware.MetodoNumerico.Lagrange"
+            android:label="@string/lagrange" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+                 
+                   <activity
+            android:name="com.Gsoftware.MetodoNumerico.Trapecio"
+            android:label="@string/Regla_trapecio" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+                   
+                             <activity
+            android:name="com.Gsoftware.MetodoNumerico.Trapecio_subdividido"
+            android:label="@string/Regla_trapecio_sub" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+              
+                             
+                                      <activity
+            android:name="com.Gsoftware.MetodoNumerico.Simson1_3"
+            android:label="@string/sinsom1_3" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+                                      
+                                                                 <activity
+            android:name="com.Gsoftware.MetodoNumerico.Simson1_3_Sub"
+            android:label="@string/sinsom1_3_sub" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+                                                                 
+                    <activity
+            android:name="com.Gsoftware.MetodoNumerico.Simson3_8"
+            android:label="@string/sinsom3_8" 
+            android:configChanges="keyboard|keyboardHidden|orientation"/>
+              
+    </application>
+
+</manifest>

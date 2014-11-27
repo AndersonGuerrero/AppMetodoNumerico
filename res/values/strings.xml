@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MetodoNumerico</string>
+    <string name="action_settings">Settings</string>
+    <string name="ValorXa">Valor de Xa</string>
+    <string name="valorE">Error&lt;=</string>
+    <string name="biseccion">Biseccion</string>
+    <string name="txtFuncion">Funcion</string>
+    <string name="txtCalcular">Calcular</string>
+    <string name="Resultado">Resultado</string>
+    <string name="txtXb">Valor de Xb</string>
+    <string name="text_x">Partiendo de x</string>
+    <string name="txtfuncionD">Derivada de La Funcion</string>
+    <string name="NewtonRaphson">Metodo de NewtonRaphson</string>
+     <string name="Secante">Metodo de la Secante</string>
+      <string name="txtx0">Valor de X0</string>
+       <string name="txtx1">Valor de X1</string>
+       <string name="falsaposicion">Metodo de la Falsa Posicion</string>
+       <string name="lagrange">Metodo de Lagrange</string>
+       <string name="VariablesXs">Introduzca las X Ej(X0,X1,X2)</string>
+       <string name="VariablesYs">Introduzca las F(x) Ej(Y0,Y1,Y2)</string>
+       <string name="Regla_trapecio">Regla del Trapecio</string>
+       <string name="Regla_trapecio_sub">Regla del Trapecio Subdividido</string>
+       <string name="sinsom1_3">Regla de Simson ⅓</string>
+       <string name="sinsom3_8">Regla de Simson 3/8</string>
+        <string name="sinsom1_3_sub">Regla de Simson ⅓ Subdividido</string>
+</resources>
